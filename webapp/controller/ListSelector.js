@@ -3,7 +3,7 @@ sap.ui.define([
     "sap/base/Log"
 ], function (Object, Log) {
 	"use strict";
-	return Object.extend("student00.sap.training.ex11_dynamicpage.controller.ListSelector", {
+	return Object.extend("studentXX.sap.training.ex11_dynamicpage.controller.ListSelector", {
 		constructor : function () {
 			this._oWhenListHasBeenSet = new Promise(function (fnResolveListHasBeenSet) {
 				this._fnResolveListHasBeenSet = fnResolveListHasBeenSet;

@@ -7,7 +7,7 @@ sap.ui.define([
 	function (Controller) {
 		"use strict";
 
-		return Controller.extend("student00.sap.training.ex11_dynamicpage.controller.Carrier", {
+		return Controller.extend("studentXX.sap.training.ex11_dynamicpage.controller.Carrier", {
 			onInit: function () {
                 var oRouter = this.getRouter();
 			    oRouter.getRoute("Carrier").attachMatched(this._onObjectMatched, this);

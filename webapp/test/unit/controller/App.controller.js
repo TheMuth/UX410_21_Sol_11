@@ -1,7 +1,7 @@
 /*global QUnit*/
 
 sap.ui.define([
-	"student00/sap/training/ex11_dynamicpage/controller/App.controller"
+	"studentXX/sap/training/ex11_dynamicpage/controller/App.controller"
 ], function (Controller) {
 	"use strict";
 

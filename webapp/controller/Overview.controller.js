@@ -10,7 +10,7 @@ sap.ui.define([
 	function (Controller, Filter, FilterOperator, Sorter) {
 		"use strict";
 
-		return Controller.extend("student00.sap.training.ex11_dynamicpage.controller.Overview", {
+		return Controller.extend("studentXX.sap.training.ex11_dynamicpage.controller.Overview", {
             onInit: function() {
 			    this._oList = this.byId("idCarrierList");
 			    this.getView().addEventDelegate({
@@ -158,7 +158,7 @@ sap.ui.define([
             onOpenViewSettings: function(oEvent) {
 			    if (!this._oViewSettingsDialog) {
 				    this._oViewSettingsDialog = sap.ui.xmlfragment(
-                        "student00.sap.training.ex11_dynamicpage.fragments.ViewSettingsDialog", 
+                        "studentXX.sap.training.ex11_dynamicpage.fragments.ViewSettingsDialog", 
                         this
                     );
 				    this.getView().addDependent(this._oViewSettingsDialog);

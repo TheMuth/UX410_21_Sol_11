@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (Opa5) {
 	"use strict";
 
-	return Opa5.extend("student00.sap.training.ex11_dynamicpage.test.integration.arrangements.Startup", {
+	return Opa5.extend("studentXX.sap.training.ex11_dynamicpage.test.integration.arrangements.Startup", {
 
 		iStartMyApp: function (oOptionsParameter) {
 			var oOptions = oOptionsParameter || {};
@@ -14,7 +14,7 @@ sap.ui.define([
 			// start the app UI component
 			this.iStartMyUIComponent({
 				componentConfig: {
-					name: "student00.sap.training.ex11_dynamicpage",
+					name: "studentXX.sap.training.ex11_dynamicpage",
 					async: true
 				},
 				hash: oOptions.hash,

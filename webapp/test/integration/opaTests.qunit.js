@@ -5,7 +5,7 @@ sap.ui.getCore().attachInit(function () {
 	"use strict";
 
 	sap.ui.require([
-		"student00/sap/training/ex11_dynamicpage/test/integration/AllJourneys"
+		"studentXX/sap/training/ex11_dynamicpage/test/integration/AllJourneys"
 	], function () {
 		QUnit.start();
 	});
